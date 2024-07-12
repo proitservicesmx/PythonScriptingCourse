@@ -50,3 +50,8 @@ while x < 10:
         print('continuing...')
         continue
     
+
+    #range functions
+    my_list = [1,2,3]
+    for num in range(0,11,2):
+        print(num)
