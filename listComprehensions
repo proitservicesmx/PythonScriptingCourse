@@ -1,0 +1,13 @@
+st = 'Print only the words that start with s in the sentence'
+for word in st.split():
+    if word[0] == 's':
+     print(word)
+
+
+
+
+st1 = 'Print every word in this sentence that has an even number fo letter'
+for word1 in st1.split():
+    if len(word1)%2==0:
+        print(word1+" --- has an even legth")
+        
